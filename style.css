@@ -1,0 +1,121 @@
+
+
+ .nav-link:hover{
+    text-decoration: underline;
+
+}
+.overlay{
+    top:25%;
+    position: absolute;
+    background-size: cover;    
+}
+.card1{
+    width: 425px;
+    height: 1045px;
+    margin: 20px;
+    border: 1px ridge black;
+    background: linear-gradient(to top,white 50%,rgb(247, 244, 244) 50%);
+    background-size: 100% 200%; 
+    transition: all 0.8s;
+}
+.card1:hover{
+    background-position: bottom;
+border: none;
+box-shadow: 6px 2px 3px 6px black;
+}
+
+.card2{
+    width: 425px;
+    height: 1045px;
+    margin: 20px;
+    border: 1px ridge black;
+    background: linear-gradient(to top,white 50%,rgb(247, 244, 244) 50%);
+    background-size: 100% 200%; 
+    transition: all 0.8s;
+}
+.card2:hover{
+    background-position: bottom;
+border: none;
+box-shadow: 6px 2px 3px 6px black;
+}
+.card3{
+    width: 425px;
+    height: 1045px;
+    margin: 20px;
+    border: 1px ridge black;
+    background: linear-gradient(to top,white 50%,rgb(247, 244, 244) 50%);
+    background-size: 100% 200%; 
+    transition: all 0.8s;
+}
+.card3:hover{
+    background-position: bottom;
+border: none;
+box-shadow: 6px 2px 3px 6px black;
+}
+
+.card4{
+    width: 425px;
+    height: 1045px;
+    margin: 20px;
+    border: 1px ridge black;
+    background: linear-gradient(to top,white 50%,rgb(247, 244, 244) 50%);
+    background-size: 100% 200%; 
+    transition: all 0.8s;
+}
+.card4:hover{
+    background-position: bottom;
+border: none;
+box-shadow: 6px 2px 3px 6px black;
+}
+
+.card5{
+    width: 425px;
+    height: 1045px;
+    margin: 20px;
+    border: 1px ridge black;
+    background: linear-gradient(to top,white 50%,rgb(247, 244, 244) 50%);
+    background-size: 100% 200%; 
+    transition: all 0.8s;
+}
+.card5:hover{
+    background-position: bottom;
+border: none;
+box-shadow: 6px 2px 3px 6px black;
+}
+.card6{
+    width: 425px;
+    height: 1045px;
+    margin: 20px;
+    border: 1px ridge black;
+    background: linear-gradient(to top,white 50%,rgb(247, 244, 244) 50%);
+    background-size: 100% 200%; 
+    transition: all 0.8s;
+}
+.card6:hover{
+    background-position: bottom;
+border: none;
+box-shadow: 6px 2px 3px 6px black;
+}
+.card7{
+    width: 425px;
+    height: 1045px;
+    margin: 20px;
+    border: 1px ridge black;
+    background: linear-gradient(to top,white 50%,rgb(247, 244, 244) 50%);
+    background-size: 100% 200%; 
+    transition: all 0.8s;
+}
+.card7:hover{
+    background-position: bottom;
+border: none;
+box-shadow: 6px 2px 3px 6px black;
+}
+.overlayy{
+    margin-left: 18%;
+    top:709%;
+    position: absolute;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}

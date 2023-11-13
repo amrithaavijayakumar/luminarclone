@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMINAR TECHNOLAB</title>
+    <link rel="icon" type="image/png" href="data:image/jpeg;base64,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">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mooli&family=Tilt+Neon&display=swap" rel="stylesheet">
+        
+</head>
+<body style="font-family: 'Tilt Neon', sans-serif; font-size: x-large;" >
+    <div class="row">
+      
+        <div class="col-12">
+          <ul class="nav justify-content-center" >
+            <img src="https://www.luminartechnolab.com/static/media/logo%20vanner%200.1.ad159943.png" alt="" height="50px" width="200PX" class="m-2">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;
+              <a class="nav-link" style="color: rgb(81, 30, 129);" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: rgb(81, 30, 129);"  href="#cards">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: rgb(81,30,129);" href="#">Placements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: rgb(81,30,129);" aria-current="page" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: rgb(81,30,129);" aria-current="page" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: rgb(81,30,129);" aria-current="page" href="#">Contact</a>
+            </li>
+          </ul>
+            </div>
+            </div>
+            <section id="Courses">
+              <div class="container" style="background-color: rgb(231, 211, 249); margin: 0%; padding: 0%; width: 100%; background-size: cover;">
+              <div class="row" >
+                <div class="col-6">
+                  <div class="overlay">
+                    <div class="inner" style="text-align: justify;">
+                      <h1 style="color: rgb(81, 30, 129);margin-left: 35px;">Best Data Science,Big <br> Data Courses</h1>
+                      <h3 style="color: rgb(81, 30, 129); margin-left: 35px;">Luminar Technolab | Kochi,Kerala</h3>
+                      <p style="font-weight: bolder; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; padding: 0%; margin-left: 30px;">Luminar Technolab, No.1 Software Training Institute offers <br> various Software Courses along with 100% Guaranteed <br> Placement assistance. We provide Big Data Training, Data <br> Science, Python,Mean Stack,Software Testing &amp; many more</p>
+                      <div class="courses-paragraph-button-section">
+                        <a href="/contact"><button class="courses-paragraph-button" style="margin-left: 35px; color: white; background-color: rgb(81, 30, 129); border-radius: 30px;
+                          width: 30%;">Enquire now</button>
+                        </a>
+                    </div>
+        </div>
+                </div></div>
+                <div class="col-6">
+                   <img src="https://img.freepik.com/free-vector/online-certification-concept-with-books_23-2148573636.jpg" alt="header-image-certification" class="header-image-certification" style="width: 130%; height: 500px;">
+                </div>
+                </div> </div>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12">
+                        <h1 style="text-align: center; margin-top: 40px; color: rgb(81, 30, 129);">
+                        Our 100% Job Oriented <br>
+                      Training Programs </h1>
+                      <br>
+                      <h4 style="font-weight: lighter; font-family: 'Times New Roman', Times, serif; text-align: center;">We are focused on providing advanced level software training like Big Data Training,<br> Hadoop Training, Data Science Training, Python Training, Machine Learning Training,<br> Selenium Training in Cochin Kerala.
+                      </h4><br><br>
+                      <div class="input-group rounded">
+                        <input type="search" class="form-control rounded" style="text-align: justify; font-family: Arial, Helvetica, sans-serif;" placeholder="Search Your Course" aria-label="Search" aria-describedby="search-addon" />🔍
+                        <!-- <span class="input-group-text border-0" id="search-addon">
+                          <i class="fas fa-search"></i>
+                        </span> -->
+                      </div>                    
+                     </div>
+                  </div>
+                </div>
+                <br><br>
+                <section id="cards">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-4">
+                        <!-- card 1-3 -->
+                        <div class="card1" >
+                          <img src="./img/st.png"  width="93%" height="300px" alt="" class="m-2">
+                          <h2 class="ps-2" style="color: rgb(81, 30, 129); font-family: 'Times New Roman', Times, serif; font-weight: bold;">Software Testing Specialist</h2>
+
+                           <h4 class="ps-2 text-justify" style="color: rgba(48, 49, 49, 0.898); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"> Manual Testing , Java foundations, Mobile Testing, Automation Testing, Selenium IDE, Selenium Web driver, Selenium Advanced</h4>
+                            
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Next Batch:</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Cochin :</h4>
+                           <h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">November 8th 2023 (Offline & Online)</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Calicut :</h4>
+                           <h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;"> October 18th 2023 (Offline)</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Duration:</h4>
+                           <h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">4 Months, 5 Days a Week, 1.5 - 2 Hours/day</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Course Fee:</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Fees (EMI Mode) :</h4> 
+                           <h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">31500</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Fees (One time Payment mode) :</h4> 
+                           <h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">29500</h4>
+                            </h3>
+                            <br>
+                              <a href="/contact"><button class="courses-paragraph-button" style="margin-left: 59px; color: rgb(81, 30, 129); border-color: rgb(81, 30, 129); border-radius: 30px;
+                                width: 50%;">View More</button>
+                              </a>
+                         
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <div class="card2" >
+                          <img src="./img/py.png"  width="93%" height="300px" alt="" class="m-2">
+                          <h2 class="ps-2" style="color: rgb(81, 30, 129); font-family: 'Times New Roman', Times, serif; font-weight: bold;">PYTHON DATA SCIENCE - ML - AI - & Power BI</h2>
+
+                           <h4 class="ps-2 text-justify" style="color: rgba(48, 49, 49, 0.898); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Python, SQL, Exploratory Data Analytics, Linear Algebra, Statistics, Probability Concepts, Machine Learning, Deep Learning, </h4>
+                            
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Next Batch:</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Cochin :</h4><h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">November 8th 2023 (Offline & Online)</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Calicut :</h4><h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">Not Available</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Duration:</h4><h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">6 Months, 5 Days a Week, 1.5 - 2 Hours/day</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Course Fee:</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Fees (EMI Mode) :</h4> <h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">61000</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Fees (One time Payment mode) :</h4> <h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">56000</h4>
+                            </h3>
+                            
+                              <a href="/contact"><button class="courses-paragraph-button" style="margin-left: 59px; color: rgb(81, 30, 129); border-color: rgb(81, 30, 129); border-radius: 30px;
+                                width: 50%;">View More</button>
+                              </a>
+                          
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <div class="card3" >
+                          <img src="./img/mn.png"  width="93%" height="300px" alt="" class="m-2">
+                          <h3 class="ps-2" style="color: rgb(81, 30, 129); font-family: 'Times New Roman', Times, serif; font-weight: bold;">MEA(R)N Stack Web Development Expert - Angular & React</h3>
+
+                           <h4 class="ps-2 text-justify" style="color: rgba(48, 49, 49, 0.898); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">HTML, CSS, Bootstrap, Javascript, Typescript, Git, Angular, React.js, Node.js, Express.js & MongoDB </h4>
+                            
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Next Batch:</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Cochin :</h4><h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">November 8th 2023 (Offline & Online)</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Calicut :</h4><h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">Oct 18th 2023(Offline)</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Duration:</h4><h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">6 Months,5 Days a Week,1.5-2 Hours/day</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Course Fee:</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Fees (EMI Mode) :</h4> <h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">45000</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Fees (One time Payment mode) :</h4> <h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">41500</h4>
+                            </h3>
+                            
+                              <a href="/contact"><button class="courses-paragraph-button" style="margin-left: 59px; color: rgb(81, 30, 129); border-color: rgb(81, 30, 129); border-radius: 30px;
+                                width: 50%;">View More</button>
+                              </a>
+                          
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- card 4-6 -->
+
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="card4" >
+                          <img src="./img/bd.png"  width="93%" height="300px" alt="" class="m-2">
+                          <h3 class="ps-2" style="color: rgb(81, 30, 129); font-family: 'Times New Roman', Times, serif; font-weight: bold;">Python Django - Angular- Full Stack Web Development Expert</h3>
+
+                           <h4 class="ps-2 text-justify" style="color: rgba(48, 49, 49, 0.898); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Core Python, Basics of Programming, Unix Commands, Advanced Python, Django Framework, REST API, Git, Angular, Web</h4>
+                            
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Next Batch:</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Cochin :</h4>
+                           <h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">November 8th 2023 (Offline & Online)</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Calicut :</h4>
+                           <h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;"> October 11th 2023 (Offline)</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Duration:</h4>
+                           <h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">4 Months,5 Days a Week,1.5 -2 Hours/day</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Course Fee:</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Fees (EMI Mode) :</h4> 
+                           <h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">35000</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Fees (One time Payment mode) :</h4> 
+                           <h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">31500</h4>
+                            </h3>
+                            
+                              <a href="/contact"><button class="courses-paragraph-button" style="margin-left: 59px; color: rgb(81, 30, 129); border-color: rgb(81, 30, 129); border-radius: 30px;
+                                width: 50%;">View More</button>
+                              </a>
+                         
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <div class="card5" >
+                          <img src="./img/dj.png"  width="93%" height="300px" alt="" class="m-2">
+                          <h2 class="ps-2" style="color: rgb(81, 30, 129); font-family: 'Times New Roman', Times, serif; font-weight: bold;">Asp.net MVC with Angular - Full Stack</h2>
+
+                           <h4 class="ps-2 text-justify" style="color: rgba(48, 49, 49, 0.898); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">C# Programming, Object Oriented Development, ASP .Net Web and Windows Application Development, MS SQL, MVC </h4>
+                            
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Next Batch:</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Cochin :</h4><h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">October 11th 2023</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Calicut :</h4><h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">Not Available</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Duration:</h4><h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">5 Months, 5 Days a Week,2 Hours/day</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Course Fee:</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Fees (EMI Mode) :</h4> <h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">31500</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Fees (One time Payment mode) :</h4> <h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">29000</h4>
+                            </h3>
+                            
+                              <a href="/contact"><button class="courses-paragraph-button" style="margin-left: 59px; color: rgb(81, 30, 129); border-color: rgb(81, 30, 129); border-radius: 30px;
+                                width: 50%;">View More</button>
+                              </a>
+                          
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <div class="card6" >
+                          <img src="./img/andr.png"  width="93%" height="300px" alt="" class="m-2">
+                          <h3 class="ps-2" style="color: rgb(81, 30, 129); font-family: 'Times New Roman', Times, serif; font-weight: bold;">Android Developer Expert Training In Kochi- Flutter</h3>
+
+                           <h4 class="ps-2 text-justify" style="color: rgba(48, 49, 49, 0.898); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Dart, Flutter Introduction to Android, Android Studio, AndroidManifest.xml, Directories, Layout Designing, Basics & Intents, UI </h4>
+                            
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Next Batch:</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Cochin :</h4><h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">November 8th 2023 (Offline & Online)</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Calicut :</h4><h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">Oct 11th 2023(Offline)</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Duration:</h4><h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">6 Months(1.5-2 Hours/day)</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Course Fee:</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Fees (EMI Mode) :</h4> <h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">31500</h4>
+                           <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Fees (One time Payment mode) :</h4> <h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">29000</h4>
+                            </h3>
+                            
+                              <a href="/contact"><button class="courses-paragraph-button" style="margin-left: 59px; color: rgb(81, 30, 129); border-color: rgb(81, 30, 129); border-radius: 30px;
+                                width: 50%;">View More</button>
+                              </a>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <!-- card7 -->
+                    <div class="row">
+                    <div class="col-4">
+                      <div class="card7" >
+                        <img src="./img/java.png"  width="93%" height="300px" alt="" class="m-2">
+                        <h3 class="ps-2" style="color: rgb(81, 30, 129); font-family: 'Times New Roman', Times, serif; font-weight: bold;">Java Spring Full Stack Development</h3>
+
+                         <h4 class="ps-2 text-justify" style="color: rgba(48, 49, 49, 0.898); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Important Spring Annotations, IOC Containers,Dependency injection,Auto Wiring, Spring Data JPA, Intrduction to SpringI </h4>
+                          
+                         <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Next Batch:</h4>
+                         <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Cochin :</h4><h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">December 6th 2023</h4>
+                         <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Calicut :</h4><h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">Not Available</h4>
+                         <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Duration:</h4><h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">4 Months,5 Days a Week 2 Hours/day</h4>
+                         <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Course Fee:</h4>
+                         <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Fees (EMI Mode) :</h4> <h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">31500</h4>
+                         <h4 class="ps-2 text-justify" style="color: rgb(81, 30, 129);">Fees (One time Payment mode) :</h4> <h4 class="ps-2" style="color: rgba(48, 49, 49, 0.898); font-family: Arial, Helvetica, sans-serif;">29000</h4>
+                          </h3>
+                          
+                            <a href="/contact"><button class="courses-paragraph-button" style="margin-left: 59px; color: rgb(81, 30, 129); border-color: rgb(81, 30, 129); border-radius: 30px;
+                              width: 50%;">View More</button>
+                            </a>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </section>
+
+                <section id="why">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-6">
+                        <img src="./img/man.png" width="800px" height="850px" alt="">
+                      </div>
+                      <div class="col-6">
+                        <h2 style="color: rgb(81, 30, 129); font-family: 'Times New Roman', Times, serif; font-weight: bold; margin-left: 42%;  text-align: center;">Why Luminar Technolab</h2>
+                        <h4 style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: lighter; color: rgb(101, 97, 97); text-align: justify; margin-left: 42%;">At Luminar Technolab we offer a comprehensive course that covers the whole aspects of the Data Science Ecosystem including Big Data Engineering, Data Science, Data Analytics, Data Visualization - Tableau, data processing, Data Munging, Machine Learning, Deep Learning & Artificial Intelligence.</h4><br>
+       
+                        <img src="./img/Screenshot 2023-10-19 111356.png" style="margin-left: 45%;" width="400px" height="419px" alt="">
+                      <!--                <h4 style="font-family: 'Times New Roman', Times, serif; font-weight: bolder; color: rgb(101, 97, 97);text-align:left; margin-left: 45%; font-size: small;"><img src="./img/lm.svg" width="10%" height="10%" alt="">ISO 9001:2015 Certified Institution</h4>
+                      <h4 style="font-family: 'Times New Roman', Times, serif; font-weight: bolder; color: rgb(101, 97, 97);text-align:left; margin-left: 45%; font-size: small;"><img src="./img/lm.svg" width="10%" height="10%" alt="">Affiliated to NACTET (http://www.nactetindia.org/affiliation.php)</h4>
+                      <h4 style="font-family: 'Times New Roman', Times, serif; font-weight: bolder; color: rgb(101, 97, 97);text-align:left; margin-left: 45%; font-size: small;"><img src="./img/lm.svg" width="10%" height="10%" alt="">Training by highly experienced and certified professionals</h4>
+                      <h4 style="font-family: 'Times New Roman', Times, serif; font-weight: bolder; color: rgb(101, 97, 97);text-align:left; margin-left: 45%; font-size: small;"><img src="./img/lm.svg" width="10%" height="10%" alt="">Training by highly experienced and certified professionals</h4>
+                      <h4 style="font-family: 'Times New Roman', Times, serif; font-weight: bolder; color: rgb(101, 97, 97);text-align:left; margin-left: 45%; font-size: small;"><img src="./img/lm.svg" width="10%" height="10%" alt="">Training by highly experienced and certified professionals</h4>
+                      <h4 style="font-family: 'Times New Roman', Times, serif; font-weight: bolder; color: rgb(101, 97, 97);text-align:left; margin-left: 45%; font-size: small;"><img src="./img/lm.svg" width="10%" height="10%" alt="">Training by highly experienced and certified professionals</h4>
+                      <h4 style="font-family: 'Times New Roman', Times, serif; font-weight: bolder; color: rgb(101, 97, 97);text-align:left; margin-left: 45%; font-size: small;"><img src="./img/lm.svg" width="10%" height="10%" alt="">Training by highly experienced and certified professionals</h4>
+                      <h4 style="font-family: 'Times New Roman', Times, serif; font-weight: bolder; color: rgb(101, 97, 97);text-align:left; margin-left: 45%; font-size: small;"><img src="./img/lm.svg" width="10%" height="10%" alt="">Training by highly experienced and certified professionals</h4>
+                      <h4 style="font-family: 'Times New Roman', Times, serif; font-weight: bolder; color: rgb(101, 97, 97);text-align:left; margin-left: 45%; font-size: small;"><img src="./img/lm.svg" width="10%" height="10%" alt="">Training by highly experienced and certified professionals</h4>
+                      <h4 style="font-family: 'Times New Roman', Times, serif; font-weight: bolder; color: rgb(101, 97, 97);text-align:left; margin-left: 45%; font-size: small;"><img src="./img/lm.svg" width="10%" height="10%" alt="">Training by highly experienced and certified professionals</h4>
+          -->
+                    </div>
+                    </div>
+                  </div>
+                </section>
+                
+<section id="banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <img src="./img/WhatsApp Image 2023-10-19 at 09.24.26_dfe5271d.jpg" width="105%" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+<section id="quotes">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="overlayy">
+<h1>So why wait? Start one of our high quality courses <br>
+   from the world's leading experts today!</h1><br><h5 style="color: rgb(207, 163, 97);">If You Have Any Questions Call Us / Whatsapp On +91 808 665 1651</h5><br><br><br><br>
+      <button style="background-color: white; color: rgb(81, 30, 129); width: 30%; border-radius: 30px;">Join now</button>
+  </div>
+    </div>
+  </div>
+</div>
+</section>
+
+               
+               <section id="footer">
+                
+                
+                      <footer class="bg-light text-center text-lg-start">
+                        <!-- Grid container -->
+                        <div class="container p-4">
+                          <!--Grid row-->
+                          <div class="row">
+                            <!--Grid column-->
+                            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                              <h5 class="text-uppercase"><img src="https://www.luminartechnolab.com/static/media/logo%20vanner%200.1.ad159943.png" height="100px" width="300px"></h5>
+                      
+                              <ul class="list-unstyled mb-0">
+                                <li>
+                                  <a href="#!" class="text-dark"><img src="./img/Social-Media-Icons.jpg" width="200px" height="50px" alt=""></a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="text-dark"><img src="https://www.nactetindia.org/images/logo.png" width="100px" height="100px"><img src="https://www.unifikas.com/sites/default/files/imagenes/logos/norma_iso_9001.png"width="100px" height="100px" alt=""></a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="text-dark"></a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="text-dark"></a>
+                                </li>
+                              </ul>
+                            </div>
+                            <!--Grid column-->
+                      
+                            <!--Grid column-->
+                            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                              <h5 class="text-uppercase mb-0" style="color: rgb(81, 30, 129); font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight: bold; text-decoration: underline;">COURSES</h5>
+                      
+                              <ul class="list-unstyled">
+                                <li>
+                                  <a href="#!" style="color: rgb(101, 97, 97); text-decoration: none; font-size: smaller; padding: 0%; ">MEA(R)N Stack Web Development Expert - Angular & React</a>
+                                </li>
+                                <li>
+                                  <a href="#!" style="color: rgb(101, 97, 97); text-decoration: none; font-size: smaller; padding: 0%; ">Software Testing</a>
+                                </li>
+                                <li>
+                                  <a href="#!" style="color: rgb(101, 97, 97); text-decoration: none; font-size: smaller; padding: 0%; ">Android Developer Expert Training In Kochi- Flutter</a>
+                                </li>
+                                <li>
+                                  <a href="#!" style="color: rgb(101, 97, 97); text-decoration: none; font-size: smaller; padding: 0%; ">Python Django - Angular- Full Stack Web Development Expert</a>
+                                </li>
+                                <li>
+                                  <a href="#!" style="color: rgb(101, 97, 97); text-decoration: none; font-size: smaller; padding: 0%; ">PYTHON DATA SCIENCE - ML - AI - & Power BI</a>
+                                </li>
+                                <li>
+                                  <a href="#!" style="color: rgb(101, 97, 97); text-decoration: none; font-size: smaller; padding: 0%; ">Asp.net MVC with Angular - Full Stack</a>
+                                </li>
+                                <li>
+                                  <a href="#!" style="color: rgb(101, 97, 97); text-decoration: none; font-size: smaller; padding: 0%; ">Java Spring Full Stack Development</a>
+                                </li>
+                              </ul>
+                            </div>
+                            <!--Grid column-->
+                      
+                            <!--Grid column-->
+                            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                              <h5 class="text-uppercase" style="color: rgb(81, 30, 129); font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight: bold; text-decoration: underline;">USEFULL LINKS</h5>
+                      
+                              <ul class="list-unstyled mb-0">
+                                <li>
+                                  <a href="#!" style="color: rgb(101, 97, 97); text-decoration: none; font-size: smaller; padding: 0%; ">Teachers & Staff</a>
+                                </li>
+                                <li>
+                                  <a href="#!" style="color: rgb(101, 97, 97); text-decoration: none; font-size: smaller; padding: 0%; ">Gallery</a>
+                                </li>
+                                <li>
+                                  <a href="#!" style="color: rgb(101, 97, 97); text-decoration: none; font-size: smaller; padding: 0%; ">Our Courses</a>
+                                </li>
+                                <li>
+                                  <a href="#!" style="color: rgb(101, 97, 97); text-decoration: none; font-size: smaller; padding: 0%; ">Refund & Cancellation Policy</a>
+                                </li>
+                                <li>
+                                  <a href="#!" style="color: rgb(101, 97, 97); text-decoration: none; font-size: smaller; padding: 0%; ">Certification & Affiliation</a>
+                                </li>
+                              </ul>
+                            </div>
+                            <!--Grid column-->
+                      
+                            <!--Grid column-->
+                            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                              <h5 class="text-uppercase mb-0" style="color: rgb(81, 30, 129); font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight: bold; text-decoration: underline;">contact us</h5>
+                      
+                              <ul class="list-unstyled">
+                                <li>
+                                  <a href="#!" style="color: rgb(101, 97, 97); text-decoration: none; font-size: smaller; padding: 0%; "><h4 style="color: rgb(81, 30, 129);">Cochin</h4>Luminar Technolab Pvt Ltd
+                                    3rd Floor, Vallamattam Estate,
+                                    Seaport - Airport Rd, CSEZ,
+                                    Kakkanad, Cochin, Kerala - 682037
+                                    
+
+                                    <h4 style="color: rgb(81, 30, 129);">
+                                    
+                                    Call:+91 8086 651 651 <br>
+                                    
+                                    Email: contact@luminartechnolab.com</h4></a>
+                                </li>
+                                <li>
+                                  <a href="#!" style="color: rgb(101, 97, 97); text-decoration: none; font-size: smaller; padding: 0%; "><h4 style="color: rgb(81, 30, 129);">Calicut</h4>Luminar Technolab Pvt Ltd
+                                    2nd Floor, 61/10222 ,
+                                    Mullath Building,
+                                    Opp. KSRTC Bus Stand,
+                                    Mavoor Road, Calicut, Kerala-673001
+                                    
+
+                                    <h4 style="color: rgb(81, 30, 129);">
+                                    
+                                      
+                                      Call: +91 8086 531 531,<br> 0495 - 3573001 <br>
+
+                                      
+                                      Email: contact@luminartechnolab.com</h4></a>
+
+                                </li>
+                                <li>
+                                  <a href="#!" class="text-dark"></a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="text-dark"></a>
+                                </li>
+                              </ul>
+                            </div>
+                            <!--Grid column-->
+                          </div>
+                          <!--Grid row-->
+                        </div>
+                        <!-- Grid container -->
+                      
+                        <!-- Copyright -->
+                        <div class="" style="background-color: rgba(0, 0, 0, 0.2);">
+                       <h3 style="color:  rgb(101, 97, 97);  text-align: center; ">   © Luminar Technolab 2023 |Deepnetsoft</h3><h3 style="color: rgb(81, 30, 129); text-align: center;"> Privacy & Terms of Use</h3>
+                          <!-- <a class="" href="https://mdbootstrap.com/"><h3 style="color:  rgb(101, 97, 97);;">Developed by Deepnetsoft</h3><h3 style="color: rgb(81, 30, 129);" >Privacy</h3> & <h3 style="color: rgb(81, 30, 129);" >Terms of Use </h3></a> -->
+                        </div>
+                        <!-- Copyright -->
+                      </footer>
+                    </div>
+                  </div>
+                </div>
+               </section>   
+              </body>
+              </html>
+               
+            
+              
+
+            
+</body>
+</html>
